@@ -1,0 +1,19 @@
+name: Request New AI
+description: Request for a new AI to be added to the app
+title: "Request for new AI"
+labels: [ "new ai" ]
+assignees: [ SilentCoderHere ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new AI!
+
+  - type: input
+    id: website
+    attributes:
+      label: Website URL
+      description: Main homepage or direct chat link.
+      placeholder: "https://lumo.proton.me"
+    validations:
+      required: true
